@@ -21,13 +21,10 @@ const PrimeVideo = args => {
         alt="prime video"
       />
       <div className="movie-sliders-con">
-        <h1 className="slider-label">Action Movies</h1>
         <MoviesSlider
-          moviesList={moviesList}
-          actionMovieDetails={actionMoviesList}
+          actionMoviesList={actionMoviesList}
+          comedyMoviesList={comedyMoviesList}
         />
-        <h1 className="slider-label">Comedy Movies</h1>
-        <MoviesSlider comedyMovieDetails={comedyMoviesList} />
       </div>
     </div>
   )
